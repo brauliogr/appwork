@@ -4,7 +4,7 @@ name: appwork-web
 
 steps:
 - name: appwork-web
-  image: node:10
+  image: unitynts/appwork_web:1.0
   commands:
   - npm install
   - npm fund
