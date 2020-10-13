@@ -7,5 +7,5 @@ steps:
   image: node:10
   commands:
   - npm install
-  - napm fund
+  - npm fund
   - npm test
