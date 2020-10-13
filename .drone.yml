@@ -1,5 +1,6 @@
 kind: pipeline
-name: docker
+type: docker
+name: appwork-web
 
 steps:
 - name: test
