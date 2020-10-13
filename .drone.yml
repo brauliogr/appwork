@@ -4,7 +4,7 @@ name: appwork-web
 
 steps:
 - name: appwork-web
-  image: node10
+  image: node:10
   commands:
   - npm install
   - npm test
