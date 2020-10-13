@@ -5,5 +5,4 @@ steps:
 - name: test
   image: unitynts/appwork_web:1.0
   commands:
-  - npm install
   - npm test
