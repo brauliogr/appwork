@@ -3,8 +3,8 @@ type: docker
 name: appwork-web
 
 steps:
-- name: test
-  image: unitynts/appwork_web:1.0
+- name: appwork-web
+  image: node10
   commands:
   - npm install
   - npm test
