@@ -12,8 +12,8 @@ MongoClient.connect(url, (err, client) => {
   if (err) return console.log(err)
   db = client.db('appwork') // coloque o nome do seu DB
 
-  app.listen(3000, () => {
-    console.log('Server running on port 3000')
+  app.listen(3300, () => {
+    console.log('Server running on port 3300')
   })
 })
 
